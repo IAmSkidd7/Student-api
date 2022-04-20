@@ -2,7 +2,7 @@
   "name": "student-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/IAmSkidd7/Student-api/issues"
   },
-  "homepage": "https://github.com/IAmSkidd7/Student-api#readme"
+  "homepage": "https://github.com/IAmSkidd7/Student-api#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
